@@ -6,7 +6,9 @@ class MessageTraffic(HttpUser):
     def GetMessage(self):
         response = self.client.get("/")
         sapp = response.text
-        app = sapp[31:36]
+        rs = sapp.index('<body>') + 7
+        ss = sapp.index('</body>')
+        app = sapp[rs:ss]
 
         if app in apps.keys(): 
             apps[app] += 1
