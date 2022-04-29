@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: api-backend
-        image: 6d7178d9b597/dsu:amd64
+        image: jumpstonik/api:amd64
         ports:
         - containerPort: 3000
