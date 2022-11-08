@@ -111,6 +111,16 @@ Dejo a su discreción la manera de relacionar la información.
 
 :exclamation: **Una sugerencia:** Hacer una relación de muchos a uno de las fotos (a cada foto asignarle un usuario, y un estado de "favorito"). Hacer una relación de muchos a muchos de fotos a álbumes. 
 
+### Cloud Logs
+
+Las APIs de la app deben de estar conectadas a Stackdriver, y permitirles obtener información acerca de las cosas que realizan. 
+
+### Cloud Big Query
+A partir de los logs obtenidos de Stackdriver, deben de enviarlos a un dataset de big query
+
+## Datastudio
+A partir de los logs obtenidos en Big Query, deben de crear un dashboard en Datastudio que muestre informacion del performance de la API
+
 ### Cloud Storage
 
 Utilizarán este servicio para almacenar las imágenes que sube el cliente. 
