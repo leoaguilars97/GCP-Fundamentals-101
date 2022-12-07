@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: gcp-docker-app
+    image: gcr.io/model-coral-369515/reactapp-amd:latest
+    ports:
+      - 8080:80
