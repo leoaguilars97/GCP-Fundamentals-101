@@ -147,14 +147,6 @@ Ninguna más, pueden elegir el lenguaje, biblioteca o framework que deseen.
 
 Se realizará la calificación del proyecto de manera virtual por medio de Google Meets
 
-## Método de trabajo
-
-En parejas o individual
-
-## Fecha de entrega
-
-Viernes 29 de abril del 2022
-
 
 
 
