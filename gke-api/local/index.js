@@ -13,7 +13,7 @@ app.use((req, res, next) => {
     next()
 })
 
-app.get('/', (_req, res) => console.log('203 Ok') | res.sendStatus(203))
+app.get('/', (_req, res) => console.log('203 Non-authorative') | res.sendStatus(203))
 app.post('/', (_req, res) => console.log('201 Created') | res.sendStatus(201))
 app.get('/fail', (_req, res) => console.log('500 ISE') | res.sendStatus(500))
 
